@@ -1,6 +1,4 @@
-package InitialRevision;
-
-import java.util.Scanner;
+package InitialRevision.Problems1_2;
 
 public class Problem1 {
     public static void main(String[] args) {

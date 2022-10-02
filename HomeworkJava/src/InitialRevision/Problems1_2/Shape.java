@@ -1,4 +1,4 @@
-package InitialRevision;
+package InitialRevision.Problems1_2;
 
 public abstract class Shape {
     protected Point[] points;

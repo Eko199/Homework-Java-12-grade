@@ -1,4 +1,4 @@
-package InitialRevision;
+package InitialRevision.Problems1_2;
 
 public class ComparableSquare extends Square implements Comparable<Square> {
     public ComparableSquare() {

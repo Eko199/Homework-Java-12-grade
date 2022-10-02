@@ -1,4 +1,4 @@
-package InitialRevision;
+package InitialRevision.Problems1_2;
 
 import java.util.Arrays;
 
