@@ -1,0 +1,34 @@
+CREATE DATABASE Facebook;
+USE Facebook;
+
+CREATE TABLE Users (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	eMail VARCHAR(20),
+	pass VARCHAR(32)
+);
+
+CREATE TABLE Friends (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	uid1 INT,
+	uid2 INT
+);
+
+CREATE TABLE Walls (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	ownerId INT,
+	authorId INT,
+	content TEXT,
+	postDate DATE
+);
+
+CREATE TABLE `Groups` (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	`name` VARCHAR(20),
+	`description` TEXT
+);
+
+CREATE TABLE GroupMembers (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	gid INT,
+	uid INT
+);
